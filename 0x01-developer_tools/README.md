@@ -24,7 +24,7 @@
 - How to block requests.
 - How to know how much JavaScript or CSS is used on a page.
 - How to detect 404 issues.
-- How to move elements on a webpage
+- How to move elements on a webpage.
 
 ## Author
 
