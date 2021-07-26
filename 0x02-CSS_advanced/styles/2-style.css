@@ -1,3 +1,7 @@
+:root {
+  --main-color: #d73953;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,9 +19,9 @@ a {
 }
 
 .card-category {
-  color: #d73953;
+  color: var(--main-color);
 }
 
 .section-tagline {
-  color: #d73953;
+  color: var(--main-color);
 }
