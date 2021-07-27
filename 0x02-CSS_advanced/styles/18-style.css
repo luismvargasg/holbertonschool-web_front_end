@@ -317,7 +317,7 @@ a:active {
   padding: var(--footer-padding);
 }
 
-navbar-menu {
+.navbar-menu {
   float: right;
 }
 
@@ -328,7 +328,7 @@ navbar-menu {
   text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -337,7 +337,7 @@ navbar-menu {
   margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
