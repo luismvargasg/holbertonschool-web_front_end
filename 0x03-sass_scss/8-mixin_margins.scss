@@ -1,5 +1,5 @@
 /* File that assigns attributes using mixins */
-@mixin left-right-margins($margin: 10px) {
+@mixin margins-left-right($margin: 10px) {
   margin-left: $margin;
   margin-right: $margin;
 }
