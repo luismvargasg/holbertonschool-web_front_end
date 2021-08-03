@@ -1,7 +1,7 @@
 /* File that assigns attributes using nested declarations */
 button {
   color: #ff0000;
-  :hover {
+  &:hover {
     color: #00ff00;
   }
 }
