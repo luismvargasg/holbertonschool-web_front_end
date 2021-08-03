@@ -1,6 +1,6 @@
 /* File that assigns attributes using for statement */
 @for $i from 1 through 5 {
-  .h#{$i} {
+  h#{$i} {
     font-size: #{$i}px;
   }
 }
