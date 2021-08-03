@@ -1,0 +1,12 @@
+/* File that assigns attributes using mixins */
+@mixin left-right-margins($margin: 10px) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+body {
+  @include margins-left-right;
+}
+div {
+  @include margins-left-right(15px);
+}
