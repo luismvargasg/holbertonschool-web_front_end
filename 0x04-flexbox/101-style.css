@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.box1 {
+  background-color: blueviolet;
+  font-size: 3vw;
+  width: 10%;
+  height: 100px;
+}
+
+.box2 {
+  background-color: teal;
+  font-size: 6vw;
+  width: 15%;
+  height: 200px;
+}
+
+.box3 {
+  background-color: tomato;
+  font-size: 10vw;
+  width: 25%;
+  height: 300px;
+}
+
+.box4 {
+  background-color: yellowgreen;
+  font-size: 6vw;
+  width: 15%;
+  height: 200px;
+}
+
+.box5 {
+  background-color: darkgoldenrod;
+  font-size: 3vw;
+  width: 10%;
+  height: 100px;
+}
