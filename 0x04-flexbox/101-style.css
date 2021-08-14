@@ -1,6 +1,13 @@
+:root {
+  --level1: 1rem;
+  --level2: 3rem;
+  --level3: 5rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
+  font-family: "Times New Roman", Times, serif;
   align-items: baseline;
 }
 
@@ -9,39 +16,37 @@
   justify-content: center;
   align-items: center;
   color: white;
+  width: 3em;
+  height: 1.5em;
 }
 
 .box1 {
-  background-color: blueviolet;
-  font-size: 3vw;
-  width: 10%;
-  height: 100px;
+  background-color: teal;
+  font-size: var(--level1);
 }
 
 .box2 {
-  background-color: teal;
-  font-size: 6vw;
-  width: 15%;
-  height: 200px;
+  background-color: tomato;
+  font-size: var(--level2);
 }
 
 .box3 {
-  background-color: tomato;
-  font-size: 10vw;
-  width: 25%;
-  height: 300px;
+  font-size: var(--level3);
+  background-color: turquoise;
 }
 
 .box4 {
-  background-color: yellowgreen;
-  font-size: 6vw;
-  width: 15%;
-  height: 200px;
+  font-size: var(--level2);
+  background-color: violet;
 }
 
 .box5 {
-  background-color: darkgoldenrod;
-  font-size: 3vw;
-  width: 10%;
-  height: 100px;
+  font-size: var(--level1);
+  background-color: yellowgreen;
+}
+
+.box1,
+.box5 {
+  width: 4.5em;
+  height: 2.5em;
 }
