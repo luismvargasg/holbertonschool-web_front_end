@@ -1,5 +1,5 @@
 function processPayment(amount) {
-  console.log("Collecting payment of " + amount);
+  console.log(`Collecting payment of ${amount}`);
 }
 
 function processOrder(orderId, amount) {
